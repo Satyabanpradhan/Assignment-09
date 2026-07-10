@@ -17,17 +17,17 @@
 
     --border-color: #0000002d;
 
-    --todo-bg: url('./assets/card-images/light/todo.png');
-    --planner-bg: url('./assets/card-images/light/planner.png');
-    --goals-bg: url('./assets/card-images/light/goal.png');
-    --timer-bg: url('./assets/card-images/light/timer.png');
-    --quotes-bg: url('./assets/card-images/light/qoute.png');
+    --todo-bg: url("./todo.png");
+    --planner-bg: url('./planner.png');
+    --goals-bg: url('./goal.png');
+    --timer-bg: url('./timer.png');
+    --quotes-bg: url('./quote.png');
 }
 
 :root[data-theme="dark"] {
     --bg-color: #000000;
     --bg-secondary-color: #0c0c0c;
-    --text-color: #f3f3f3;
+    --text-color: #ffffff;
     --text-muted: #8f8f8fb0;
     --secondary-color: #757575;
 
@@ -40,11 +40,7 @@
 
     --border-color: #2c2c2c;
 
-    --todo-bg: url('./assets/card-images/dark/todo.png');
-    --planner-bg: url('./assets/card-images/dark/planner.png');
-    --goals-bg: url('./assets/card-images/dark/goal.png');
-    --timer-bg: url('./assets/card-images/dark/timer.png');
-    --quotes-bg: url('./assets/card-images/dark/quote.png');
+
 }
 
 /* * {
